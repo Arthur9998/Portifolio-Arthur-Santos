@@ -1,0 +1,513 @@
+html{ 
+    font-family: montserrat;
+    scroll-behavior: smooth;
+    
+}
+
+.arrow-home{ 
+    position: fixed;
+    right:4%;
+    bottom: 10%;
+    width: 50px;
+    z-index: 99;
+    
+
+}
+body{ 
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    
+}
+.main .main-section{
+    align-items: center;
+    display: block; 
+}
+.main {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background: linear-gradient(180deg, #004953 0%, #000000 100%) no-repeat ;
+}
+
+.gradient{ 
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: -15%;
+    background: linear-gradient(180deg, #000000 25.89%, rgba(0, 0, 0, 0.01) 100%);
+filter: blur(30px);
+z-index: 1000;
+}
+
+.main .hello{
+    display: flex;
+    font-size: 1.5rem ;
+    display: block;
+    margin: 0;
+    color: #fff;
+    padding: 18vh 0 0 0;
+    opacity: 90%;
+}
+
+.main .name-bold{
+    display: flex;
+    font-family: century gothic;
+    position: relative;
+    font-size: 3.9rem ;
+    color: #fff;
+    display: block;
+    margin: 0;
+    z-index: 1;
+}
+
+.main .paragraph-main{
+    display: inline-flex;
+    align-items: center; 
+    font-style: normal;
+    color: #fff;
+    opacity: 60%;
+    font-size: 1.0rem;
+    z-index: 1;
+    text-align: left;
+} 
+
+.btns-main{ 
+    display: inline-flex;
+    margin: 10% 0 0 5%;
+
+}
+.projetos-btn{ 
+    padding: 5%;
+    text-decoration: none;
+    margin:0 5% 0 0;;
+    font-family: montserrat; 
+    width: 10rem;
+    
+    border-radius: 12px;
+    border: solid 2px #00A3B9;
+    background-color: transparent;
+    color: #00A3B9;
+    z-index: 1;
+    transition: 500ms;
+}
+.projetos-btn:hover{ 
+    background-color: #00A3B9;
+    color: #fff;
+}
+.contato-btn{ 
+    padding: 5%;
+    text-decoration: none;
+    margin:0 10% 0 0;;
+    font-family: montserrat; 
+    width: 10rem;
+
+    border-radius: 12px;
+    border: none;
+    background-color: #00A3B9;
+    color: #fff;
+    z-index: 1;
+    transition: 500ms;
+}
+.contato-btn:hover{ 
+    background-color: #3dd8ec;
+    color: #fff;
+}
+
+.faixa{ 
+    display: block;
+    width: 20vh;
+    max-width: 20vw;
+    background: linear-gradient(180deg, #04191C 0%, rgba(0, 66, 75, 0) 100%);
+    height: 100%;
+    left: 40%;
+    position: absolute;
+    max-width: 50%;
+    min-width: 20%;
+        
+}
+
+.pessoa{ 
+    display: block;
+    bottom: 0;
+    height: 50%;
+    position: absolute;
+    
+    
+}
+
+.icons-main{
+    position: absolute; 
+        display: grid;
+        text-decoration: none;
+        list-style: none;
+        bottom: 10%;
+        left: 5%;
+
+}
+.gmail,
+.whatsapp,
+.instragram{
+    opacity: 80%;
+    width: 2.0rem;
+    padding: 1vh 0 0 0;
+    transition: 500ms;
+}
+
+.instragram:hover{
+    opacity: 100%;
+}
+.gmail:hover{ 
+    opacity: 100%;
+}
+.whatsapp:hover{ 
+    opacity: 100%;
+}
+
+.alert{
+    opacity: 30%;
+    position: absolute;    
+    bottom: 10%;
+    font-size: 0.8rem;
+    color: #fff;
+    right: 15%;
+    transition: 500ms;
+}
+.alert:hover{ 
+    transform: translateY(-20%);
+}
+
+.linemain{ 
+   position: relative;;
+    width: 100%;
+    height: 105vh;
+}
+.apresentacao,
+.apresentacao-wicons{
+     position: relative;
+    width: 100%; 
+    height: 50%;
+}
+.apresentacao{ 
+    background: linear-gradient(89.84deg, #096970 -0.88%, #000000 99.86%);
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.apresentacao-wicons{ 
+    background: linear-gradient(105.12deg, #096970 -39.64%, #096970 -39.63%, #000000 86.31%);
+    justify-content: center;
+    padding: 0;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titulo-apresentacao{ 
+position: relative;
+font-size: 1.5rem;
+top: 20%;
+left: 15%;
+padding: 0;
+margin: 0;
+width: 20%;
+color: #fff;
+}
+
+.parametros-apresentacao{ 
+    font-size: 1.2rem;
+    font-weight: 1.5rem;
+    opacity: 70%;
+    width: 30%;
+    position: relative;
+    top: 20%;
+    left: 15%;
+    color: #fff;
+}
+
+.wicons{ 
+
+    padding: 0 2vh 0 2vh;
+    display: inline-flex;
+    position: relative;
+    list-style: none;
+    padding: 4% 0 0 0;
+   
+}
+.brain-circuit,
+.book,
+.college
+{ 
+    position: relative;
+    justify-content: center;
+    padding: 0 0 0 7% ;
+    margin: 0 7vw 0 7vw;
+}
+
+.img-icon{ 
+    padding: 0 20% 0 ;
+}
+
+.params-icons{ 
+    opacity: 60%;
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0 10% 0 0;
+}
+
+.workinitial{ 
+    height: 105vh;
+ position: relative;
+ background: linear-gradient(180deg, #062527 0%, #000000 100%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.work-init{ 
+    position: absolute;
+    color: #fff;
+    font-size: 4rem;
+    width: 30%;
+    opacity: 60%;
+
+}
+
+.work-section {
+    position: relative;
+    width: auto;
+    height: 100vh;
+}
+
+.work1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    position: relative;
+    width: 100%;
+    background: url(/IMG/Wallpaper1.svg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 105vh;
+}
+.work2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+    position: relative;
+    width: 100%;
+    background: url(/IMG/Wallpaper2.svg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 105vh;
+}
+.work3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background: url(/IMG/Wallpaper3.svg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 105vh;
+}
+
+.work4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background: url(/IMG/Wallpaper4.svg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 105vh;
+}
+
+.work5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background: url(/IMG/Wallpaper5.svg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 105vh;
+}
+
+.vermore{
+    position: absolute;
+    bottom: 20%;
+    width: 7rem;
+    height: 2.6rem;
+    background-color: transparent;
+    border: 2px #fff solid;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: 500ms;
+    left: 10%;
+    width: 8vw;
+    top: 60%;
+}
+
+.vermore:hover{ 
+    background-color: #fff;
+    color: #000;
+
+}
+
+.titulo-project{ 
+    position: absolute;
+    color: #fff;
+    left: 10%;
+    top: 35%;
+    font-size: 2.4rem;
+
+}
+
+.params-projeto{ 
+    opacity: 70%;
+    position: absolute;
+    left: 10%;
+    color: #fff;
+    width: 30%;
+    font-size: 1.2rem;
+}
+
+.what-we-do{ 
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+}
+.title-we{ 
+    position: relative;
+    top: 15%;
+    left: 20%;
+    width: 20%;
+    opacity: 60%;
+    font-size: 2rem;
+}
+.params{ 
+    position: relative;
+    top: 15%;
+    left: 20%;
+    width: 26%;
+    opacity: 60%;
+    font-size: 1.2rem;
+}
+
+
+.we-icons{ 
+    justify-content: center;
+    margin: 10% 15%;
+  
+    position: relative;
+    list-style: none;
+    display: flex;
+}
+.listen, 
+.brain,
+.idea{ 
+    justify-content: center;
+    align-items: center;
+    margin: 0 5vw 0 6vw;
+}
+
+.listen-icon,
+.brain-icon,
+.idea-icon{ 
+    justify-content: center;
+    position: absolute;
+    justify-content: center;
+    padding: 0 0 0 10vw  ;
+    margin: 0 0 0 10vw  ;
+    right: 10%;
+}
+
+.parameter{
+    
+    font-size: 1.2rem; 
+    opacity: 60%;
+    width: 80%;
+    padding: 0 10vw 0 0;
+}
+
+.contato{ 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.form-contato{ 
+    position: relative;
+
+}
+
+.e-mail{ 
+    background-color: transparent;
+    border: #00A3B9 solid 2px;
+    color: #00A3B9 ;
+    height: 1.8rem;
+    border-radius: 12px;
+    width: 70%;
+    font-size: 1.1rem;
+    padding: 0 0 0 1.4rem;
+    left: 0;
+    position: relative;
+    font-family: montserrat;
+    
+}
+.e-mail::after{ 
+    border: #00A3B9 solid 2px;
+}
+
+.text{ 
+    background-color: transparent;
+    border: #00A3B9 solid 2px;
+    color: #00A3B9 ;
+    height: 15rem;
+    border-radius: 12px;
+    width: 70%;
+    font-size: 1.1rem;
+    padding: 0 0 0 1.4rem;
+    font-family: montserrat;
+}
+
+.enviar{ 
+    
+        margin: 0 1rem 0 0;
+        font-size: 0.9rem;;
+        font-family: montserrat; 
+        width: 10rem;
+        height: 2.6rem;
+        border-radius: 11px;
+        border: solid 2px #00A3B9;
+        background-color: transparent;
+        color: #00A3B9;
+        z-index: 1;
+        transition: 500ms;
+    
+    
+}
+
+.enviar:hover{ 
+    background-color: #00A3B9;
+    color: #fff;
+}
